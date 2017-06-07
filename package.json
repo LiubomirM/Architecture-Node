@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "node architecture",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "7.10.0",
+    "npm": "4.2.0"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/LiubomirM/Architecture-Node/issues"
   },
-  "homepage": "https://github.com/LiubomirM/Architecture-Node#readme"
+  "homepage": "https://github.com/LiubomirM/Architecture-Node#readme",
+  "dependencies": {
+    "express": "4.15.3",
+    "mongoose": "4.10.5"
+  }
 }
